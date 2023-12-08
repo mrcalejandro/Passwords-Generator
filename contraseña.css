@@ -1,0 +1,152 @@
+body{
+    background-image: url(./ss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    margin: 0;
+}
+.menusuperior{
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    border-radius: 3px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.casillalogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textologo{
+    font-size: 21px;
+    margin-left: 4px;
+
+}
+.credes{
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    color: antiquewhite;
+    border-radius: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 30px;
+    margin-right: 0px;
+
+}
+
+.redes a {
+    text-decoration: none;
+  }
+
+
+.fb{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 3.6px;
+}
+
+.tw{
+    width: 27   px;
+    height: 27px;
+    padding-top: 2px;
+}
+
+.yt{
+    width: 32px;
+    height: 21px;
+    padding-bottom: 1.7px;
+    padding-right: 8px;
+}
+
+.programa{
+    display: flex;  
+    justify-content: center;
+    margin-top: 150px;
+}
+.generador{
+
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    border-color: black;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+.titulo{
+font-size: 55px;
+}
+
+.complemento{
+text-align: center;
+margin-top: 10px;
+font-family: Verdana;
+font-size: 14px;
+width: 450px;
+
+}
+
+.acciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ncaracteres{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+.entrada{
+    border-radius: 5px;
+    border-style: solid;
+    width: 35px;
+    height: 20px;
+}
+
+.bt{
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+
+}
+
+.salida{
+    width: 450px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    font-size: 15px;
+}
